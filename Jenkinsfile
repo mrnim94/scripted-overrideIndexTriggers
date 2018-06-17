@@ -1,11 +1,11 @@
 node {
-/*
+
 	properties(
 		[
-			overrideIndexTriggers(true)
+			overrideIndexTriggers(false)
 		]
 	)
-*/
+
     stage('Build') {	
 		echo 'Hello World 1'
     }	
